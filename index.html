@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Comentário do professor: o head guarda informações da página que não aparecem diretamente no conteúdo. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plataforma de organização e cuidado psicológico do Serviço-Escola.">
+    <title>Vínculo | Gestão em Psicologia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- O header concentra a identidade do site e os links de navegação. -->
+    <header class="site-header">
+        <div class="container header-content">
+            <!-- A marca também funciona como link para voltar ao início. -->
+            <a class="brand" href="index.html" aria-label="Vínculo - início">
+                <span class="brand-mark" aria-hidden="true">CP</span>
+                <span>ClickPsico</span>
+            </a>
+            <!-- nav é uma tag semântica: ela informa que estes links formam a navegação principal. -->
+            <nav class="main-nav" aria-label="Navegação principal">
+                <a href="#sobre">Sobre a plataforma</a>
+                <a href="#recursos">Recursos</a>
+                <div class="login-links">
+                    <!-- Os links de login apontam para áreas que serão implementadas depois. -->
+                    <a class="login-link" href="#login-tecnico">Area Técnica</a>
+                    <a class="button button-small" href="#login-usuario">Login do usuário</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Esta primeira seção apresenta o propósito da plataforma ao visitante. -->
+        <section class="hero" id="sobre">
+            <div class="container hero-content">
+                <p class="eyebrow">Serviço-Escola de Psicologia</p>
+                <h1>Organização para cuidar melhor.</h1>
+                <p class="hero-text">Uma plataforma simples para apoiar estudantes, supervisores e pacientes na rotina de atendimento psicológico, com mais clareza, segurança e proximidade.</p>
+                <a class="button" href="#recursos">Conheça os recursos <span aria-hidden="true">&#8594;</span></a>
+            </div>
+            <!--
+                Comentário do professor: quando você tiver uma imagem própria,
+                remova os sinais de comentário e troque o caminho no atributo src.
+                Exemplo: <img class="hero-image" src="imagens/minha-imagem.jpg" alt="Descrição da imagem">
+                O atributo alt descreve a imagem para pessoas que usam leitor de tela.
+            -->
+        </section>
+        <!-- Cada recurso é um article independente, o que facilita futuras alterações. -->
+        <section class="resources" id="recursos">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">Tudo em um só lugar</p>
+                        <h2>Recursos para uma rotina mais leve</h2>
+                    </div>
+                    <p>Funcionalidades pensadas para facilitar a gestão do atendimento e fortalecer a relação entre clínica, estudantes e pacientes.</p>
+                </div>
+                <!-- A grade agrupa os cards e permite organizar os recursos de forma visual. -->
+                <div class="card-grid">
+                    <!-- Os três primeiros recursos já estão marcados como disponíveis. -->
+                    <article class="feature-card">
+                        <span class="card-number">01</span>
+                        <h3>Prontuário organizado</h3>
+                        <p>Registre o prontuário do Serviço-Escola com anamnese e evoluções de forma clara e centralizada.</p>
+                        <span class="card-status">Disponível</span>
+                    </article>
+                    <article class="feature-card">
+                        <span class="card-number">02</span>
+                        <h3>Agendamentos e alocação</h3>
+                        <p>Organize os agendamentos e a alocação de pacientes para estudantes e supervisores.</p>
+                        <span class="card-status">Disponível</span>
+                    </article>
+                    <article class="feature-card">
+                        <span class="card-number">03</span>
+                        <h3>Acesso do paciente</h3>
+                        <p>Gere acesso de leitura ao paciente sempre que houver uma solicitação formal.</p>
+                        <span class="card-status">Disponível</span>
+                    </article>
+                    <!-- A classe feature-card-muted diferencia visualmente os recursos futuros. -->
+                    <article class="feature-card feature-card-muted">
+                        <span class="card-number">04</span>
+                        <h3>Teleatendimento integrado</h3>
+                        <p>Atenda de forma remota com uma experiência integrada à plataforma.</p>
+                        <span class="card-status status-development">Em desenvolvimento</span>
+                    </article>
+                    <article class="feature-card feature-card-muted">
+                        <span class="card-number">05</span>
+                        <h3>Gestão financeira e clínica</h3>
+                        <p>Faturamento, convênios, prescrição e outras ferramentas para apoiar sua operação.</p>
+                        <span class="card-status status-development">Em desenvolvimento</span>
+                    </article>
+                    <article class="feature-card feature-card-muted">
+                        <span class="card-number">06</span>
+                        <h3>Comunicação próxima</h3>
+                        <p>Chat entre paciente e clínica, além de mensagens automáticas para manter todos informados.</p>
+                        <span class="card-status status-development">Em desenvolvimento</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- O footer reúne informações institucionais simples e complementares. -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p><strong>ClickPsico</strong> &mdash; tecnologia a serviço do cuidado.</p>
+            <p>&copy; 2026 Serviço-Escola de Psicologia</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
