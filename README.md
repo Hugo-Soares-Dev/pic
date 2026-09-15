@@ -12,7 +12,7 @@ Os diagramas abaixo foram convertidos para imagens SVG e aparecem diretamente no
 
 ### Diagrama de casos de uso
 
-![Diagrama de casos de uso do ClickPsico](casos-de-uso.svg)
+![Diagrama de casos de uso do ClickPsico](imagens/casos-de-uso.svg)
 
 ### Diagrama entidade-relacionamento
 
