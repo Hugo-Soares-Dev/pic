@@ -4,8 +4,10 @@ Sistema de prontuário eletrônico para o Serviço-Escola de Psicologia.
 
 ## Sobre o projeto
 
-O ClickPsico foi pensado para ajudar estudantes, supervisores, psicólogos técnicos e pacientes na organização dos atendimentos psicológicos.
 
+O ClickPsico foi pensado para ajudar estudantes, supervisores, psicólogos técnicos e pacientes na organização dos atendimentos psicológicos.
+## Regras de negocios
+![regras de negócios](imagens/ClickPsico-regrasdenegócios.pdf)
 ## Diagramas do sistema
 
 Os diagramas abaixo foram convertidos para imagens SVG e aparecem diretamente no README. Os arquivos `.drawio` continuam na pasta do projeto caso seja necessário editar os desenhos no diagrams.net.
