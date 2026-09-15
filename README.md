@@ -16,7 +16,7 @@ Os diagramas abaixo foram convertidos para imagens SVG e aparecem diretamente no
 
 ### Diagrama entidade-relacionamento
 
-![Diagrama entidade-relacionamento do ClickPsico](der.svg)
+![Diagrama entidade-relacionamento do ClickPsico](imagens/der.svg)
 
 ## Arquivos originais
 
